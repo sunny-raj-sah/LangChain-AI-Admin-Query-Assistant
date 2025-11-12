@@ -1,0 +1,57 @@
+[
+  {
+    "student_id": "S001",
+    "student_name": "Rahul Sharma",
+    "grade": 8,
+    "class": "8A",
+    "region": "North",
+    "homework_submitted": true,
+    "quiz_score": 85,
+    "quiz_date": "2025-11-05",
+    "quiz_name": "Math Quiz 1"
+  },
+  {
+    "student_id": "S002",
+    "student_name": "Priya Patel",
+    "grade": 8,
+    "class": "8A",
+    "region": "North",
+    "homework_submitted": false,
+    "quiz_score": 72,
+    "quiz_date": "2025-11-05",
+    "quiz_name": "Math Quiz 1"
+  },
+  {
+    "student_id": "S003",
+    "student_name": "Amit Kumar",
+    "grade": 8,
+    "class": "8B",
+    "region": "North",
+    "homework_submitted": true,
+    "quiz_score": 91,
+    "quiz_date": "2025-11-06",
+    "quiz_name": "Science Quiz 1"
+  },
+  {
+    "student_id": "S004",
+    "student_name": "Sneha Reddy",
+    "grade": 9,
+    "class": "9A",
+    "region": "South",
+    "homework_submitted": false,
+    "quiz_score": 68,
+    "quiz_date": "2025-11-07",
+    "quiz_name": "English Quiz 1"
+  },
+  {
+    "student_id": "S005",
+    "student_name": "Vikram Singh",
+    "grade": 9,
+    "class": "9A",
+    "region": "South",
+    "homework_submitted": true,
+    "quiz_score": 88,
+    "quiz_date": "2025-11-14",
+    "quiz_name": "Math Quiz 2"
+  }
+]

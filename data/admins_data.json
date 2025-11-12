@@ -1,0 +1,16 @@
+[
+  {
+    "admin_id": "A001",
+    "admin_name": "Mrs. Gupta",
+    "allowed_grades": [8],
+    "allowed_classes": ["8A", "8B"],
+    "allowed_regions": ["North"]
+  },
+  {
+    "admin_id": "A002",
+    "admin_name": "Mr. Verma",
+    "allowed_grades": [9],
+    "allowed_classes": ["9A"],
+    "allowed_regions": ["South"]
+  }
+]
