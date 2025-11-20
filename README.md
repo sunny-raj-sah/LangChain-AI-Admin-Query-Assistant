@@ -1,4 +1,4 @@
-# 🎓 Dumroo.ai AI Developer Assignment
+# 🎓 # AI-Powered Admin Panel with Natural Language Processing
 
 AI-powered admin panel with natural language querying and role-based access control.
 
@@ -43,7 +43,7 @@ Admins can only view data for their assigned:
 
 ## 📁 Project Structure
 
-dumroo-ai-assignment/
+ai-assignment/
 ├── data/ # JSON datasets
 ├── src/ # Python modules
 ├── requirements.txt # Dependencies
@@ -52,7 +52,7 @@ dumroo-ai-assignment/
 
 ## 🎥 Demo
 
-[Add your Loom video link or screenshots here]
+(https://![Demo](<Screenshot 2025-11-20 125016-1.png>))
 
 ## 🔮 Future Enhancements
 
