@@ -31,13 +31,19 @@ class QueryEngine:
         #     agent_type=AgentType.OPENAI_FUNCTIONS,
         #     allow_dangerous_code=True  # Required for pandas operations
         # )
+        # self.agent = create_pandas_dataframe_agent(
+        #     llm=self.llm,
+        #     df=self.df,
+        #     agent_type=AgentType.TOOL_CALLING,
+        #     verbose=True,
+        #     allow_dangerous_code=True,
+        # )
         self.agent = create_pandas_dataframe_agent(
-            llm=self.llm,
-            df=self.df,
-            agent_type=AgentType.TOOL_CALLING,
-            verbose=True,
-            allow_dangerous_code=True,
-        )
+           llm=self.llm,
+           df=self.df,
+           verbose=True,
+           allow_dangerous_code=True,
+         )
     
     def query(self, question):
         """
