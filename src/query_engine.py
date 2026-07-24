@@ -1,4 +1,5 @@
-from langchain_openai import ChatOpenAI
+# from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
 from langchain.agents.agent_types import AgentType
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 import os
@@ -12,10 +13,15 @@ class QueryEngine:
         Initialize LangChain agent with pandas DataFrame
         """
         self.df = dataframe
-        self.llm = ChatOpenAI(
-            temperature=temperature,
-            model="gpt-3.5-turbo",
-            openai_api_key=os.getenv("OPENAI_API_KEY")
+        # self.llm = ChatOpenAI(
+        #     temperature=temperature,
+        #     model="gpt-3.5-turbo",
+        #     openai_api_key=os.getenv("OPENAI_API_KEY")
+        # )
+        self.llm = ChatGroq(
+          temperature=temperature,
+          model="llama-3.1-8b-instant",
+          groq_api_key=os.getenv("GROQ_API_KEY")
         )
         
         self.agent = create_pandas_dataframe_agent(
