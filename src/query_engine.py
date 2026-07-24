@@ -24,12 +24,19 @@ class QueryEngine:
           groq_api_key=os.getenv("GROQ_API_KEY")
         )
         
+        # self.agent = create_pandas_dataframe_agent(
+        #     self.llm,
+        #     self.df,
+        #     verbose=True,
+        #     agent_type=AgentType.OPENAI_FUNCTIONS,
+        #     allow_dangerous_code=True  # Required for pandas operations
+        # )
         self.agent = create_pandas_dataframe_agent(
-            self.llm,
-            self.df,
+            llm=self.llm,
+            df=self.df,
+            agent_type=AgentType.TOOL_CALLING,
             verbose=True,
-            agent_type=AgentType.OPENAI_FUNCTIONS,
-            allow_dangerous_code=True  # Required for pandas operations
+            allow_dangerous_code=True,
         )
     
     def query(self, question):
