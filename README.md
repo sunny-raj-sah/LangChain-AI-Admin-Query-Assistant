@@ -51,8 +51,7 @@ ai-assignment/
 └── README.md # This file
 
 ## 🎥 Demo
-
-(https://![Demo](<Screenshot 2025-11-20 125016-1.png>))
+ (https://![Demo](<Screenshot 2025-11-20 125016-1.png>)) 
 
 ## 🔮 Future Enhancements
 
