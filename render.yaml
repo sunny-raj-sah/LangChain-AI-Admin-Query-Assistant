@@ -1,9 +1,15 @@
-services:
+ services:
   - type: web
     name: ai-powered-admin-panel
     runtime: python
     plan: free
 
-    buildCommand: pip install -r requirements.txt
+    buildCommand: |
+      python --version
+      pip install -r requirements.txt
 
     startCommand: streamlit run src/app.py --server.port=$PORT --server.address=0.0.0.0
+
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.11
