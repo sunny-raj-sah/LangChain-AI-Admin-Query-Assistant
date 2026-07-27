@@ -2,6 +2,8 @@
 
 AI-powered admin panel with natural language querying and role-based access control.
 
+Live app : https://ai-powered-admin-panel.onrender.com/
+
 ## 🎯 Features
 
 - Natural language query processing using LangChain + OpenAI
