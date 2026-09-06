@@ -20,7 +20,7 @@ class QueryEngine:
         # )
         self.llm = ChatGroq(
           temperature=temperature,
-          model="llama-3.1-8b-instant",
+          model=os.getenv("GROQ_MODEL"),
           groq_api_key=os.getenv("GROQ_API_KEY")
         )
         
