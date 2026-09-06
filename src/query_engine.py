@@ -98,8 +98,9 @@ class QueryEngine:
         self.llm = ChatGroq(
             temperature=temperature,
             model=os.getenv("GROQ_MODEL"),
-            groq_api_key=os.getenv("GROQ_API_KEY")
-        )
+            groq_api_key=os.getenv("GROQ_API_KEY"),
+            max_tokens=800
+            )
 
         self.agent = create_pandas_dataframe_agent(
             llm=self.llm,
