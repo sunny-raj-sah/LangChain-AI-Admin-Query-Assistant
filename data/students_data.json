@@ -7,7 +7,7 @@
     "region": "North",
     "homework_submitted": true,
     "quiz_score": 85,
-    "quiz_date": "2025-11-05",
+    "quiz_date": "2026-11-05",
     "quiz_name": "Math Quiz 1"
   },
   {
@@ -18,7 +18,7 @@
     "region": "North",
     "homework_submitted": false,
     "quiz_score": 72,
-    "quiz_date": "2025-11-05",
+    "quiz_date": "2026-11-05",
     "quiz_name": "Math Quiz 1"
   },
   {
@@ -29,7 +29,7 @@
     "region": "North",
     "homework_submitted": true,
     "quiz_score": 91,
-    "quiz_date": "2025-11-06",
+    "quiz_date": "2026-11-06",
     "quiz_name": "Science Quiz 1"
   },
   {
@@ -40,7 +40,7 @@
     "region": "South",
     "homework_submitted": false,
     "quiz_score": 68,
-    "quiz_date": "2025-11-07",
+    "quiz_date": "2026-11-07",
     "quiz_name": "English Quiz 1"
   },
   {
@@ -51,7 +51,7 @@
     "region": "South",
     "homework_submitted": true,
     "quiz_score": 88,
-    "quiz_date": "2025-11-14",
+    "quiz_date": "2026-11-14",
     "quiz_name": "Math Quiz 2"
   }
 ]
